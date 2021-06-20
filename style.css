@@ -1,0 +1,46 @@
+h1{
+ color: darksalmon;
+font-style: italic;
+}
+p{
+    color:skyblue
+}
+li{
+ color:mediumspringgreen;
+    font-size: 25px;
+}
+i{
+    font-size: 20px;
+}
+a{
+    color:black
+}
+marquee{
+    color: black;
+    font-size: 25px;
+}
+
+.header{
+  background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+#img{
+justify-content: center;
+}
+.item{
+    position: relative;
+}
+.item p{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity:0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.33;
+}
